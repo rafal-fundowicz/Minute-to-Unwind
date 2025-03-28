@@ -10,4 +10,4 @@ Play now on [my webpage](https://fundowicz.com) or download current builds from 
  
 [Puzzles preprocessed by Michael Fogleman](https://www.michaelfogleman.com/rush/) were used.
 
-![game image](minute-to-unwind.avif)
+[![game image](minute-to-unwind.avif)](https://rafal-fundowicz.itch.io/minute-to-unwind)
