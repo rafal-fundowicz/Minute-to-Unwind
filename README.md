@@ -9,3 +9,5 @@ You can save difficult or interesting puzzles for later and go back to any compl
 Play now on [my webpage](https://fundowicz.com) or download current builds from [itch.io](https://rafal-fundowicz.itch.io/minute-to-unwind).
  
 [Puzzles preprocessed by Michael Fogleman](https://www.michaelfogleman.com/rush/) were used.
+
+![game image](minute-to-unwind.avif)
