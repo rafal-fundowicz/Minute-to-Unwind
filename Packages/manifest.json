@@ -1,0 +1,27 @@
+{
+  "scopedRegistries": [
+    {
+      "name": "Unity NuGet",
+      "url": "https://unitynuget-registry.azurewebsites.net",
+      "scopes": [
+        "org.nuget"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.unity.feature.2d": "2.0.1",
+    "com.unity.ide.visualstudio": "2.0.22",
+    "com.unity.render-pipelines.universal": "17.0.3",
+    "com.unity.test-framework": "1.4.6",
+    "com.unity.timeline": "1.8.8",
+    "com.unity.toolchain.linux-x86_64": "2.0.10",
+    "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.10",
+    "org.nuget.roslynator.analyzers": "4.13.0",
+    "org.nuget.roslynator.codeanalysis.analyzers": "4.13.0",
+    "org.nuget.roslynator.codefixes": "4.13.0",
+    "org.nuget.roslynator.formatting.analyzers": "4.13.0",
+    "org.nuget.roslynator.refactorings": "4.13.0",
+    "org.nuget.stylecop.analyzers": "1.1.118",
+    "com.unity.modules.androidjni": "1.0.0"
+  }
+}

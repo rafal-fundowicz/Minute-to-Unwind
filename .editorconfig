@@ -1,0 +1,152 @@
+[*.cs]
+
+# Default severity for analyzer diagnostics
+dotnet_analyzer_diagnostic.category-Roslynator.severity = warning
+dotnet_analyzer_diagnostic.category-Design.severity = warning
+#dotnet_analyzer_diagnostic.category-Documentation.severity = warning
+dotnet_analyzer_diagnostic.category-Globalization.severity = warning
+dotnet_analyzer_diagnostic.category-Interoperability.severity = warning
+dotnet_analyzer_diagnostic.category-Maintainability.severity = warning
+dotnet_analyzer_diagnostic.category-Naming.severity = warning
+dotnet_analyzer_diagnostic.category-Performance.severity = warning
+dotnet_analyzer_diagnostic.category-SingleFile.severity = warning
+dotnet_analyzer_diagnostic.category-Reliability.severity = warning
+dotnet_analyzer_diagnostic.category-Security.severity = warning
+dotnet_analyzer_diagnostic.category-Style.severity = warning
+dotnet_analyzer_diagnostic.category-Usage.severity = warning
+
+
+# General
+
+# RCS1110: Declare type inside namespace
+dotnet_diagnostic.RCS1110.severity = none
+
+# SA1600: Elements should be documented
+dotnet_diagnostic.SA1600.severity = none
+
+# SA1602: Enumeration items should be documented
+dotnet_diagnostic.SA1602.severity = none
+
+# SA1633: File should have header
+dotnet_diagnostic.SA1633.severity = none
+
+
+# Order
+
+# SA1201: Elements should appear in the correct order
+dotnet_diagnostic.SA1201.severity = none
+
+# SA1202: Elements should be ordered by access
+dotnet_diagnostic.SA1202.severity = none
+
+# SA1203: Constants should appear before fields
+dotnet_diagnostic.SA1203.severity = none
+
+# SA1204: Static elements should appear before instance elements
+dotnet_diagnostic.SA1204.severity = none
+
+# SA1214: Readonly fields should appear before non-readonly fields
+dotnet_diagnostic.SA1214.severity = none
+
+
+# Overly verbose
+
+# IDE0048: Parentheses should be added for clarity
+dotnet_diagnostic.IDE0048.severity = none
+
+# RCS1181: Convert comment to documentation comment
+dotnet_diagnostic.RCS1181.severity = none
+
+# RCS1123: Add parentheses when necessary
+dotnet_diagnostic.RCS1123.severity = none
+
+# RCS1161: Enum should declare explicit values
+dotnet_diagnostic.RCS1161.severity = none
+
+# SA1101: Prefix local calls with this
+dotnet_diagnostic.SA1101.severity = none
+
+# SA1407: Arithmetic expressions should declare precedence
+dotnet_diagnostic.SA1407.severity = none
+
+
+# Not good for Unity
+
+# RCS1146: Use conditional access
+# might suggest null propagation for Unity GameObjects (UNT0008)
+dotnet_diagnostic.RCS1146.severity = none
+
+# RCS1169: Make field read-only
+# breaks [SerializeField]
+dotnet_diagnostic.RCS1169.severity = none
+
+# RCS1213: Remove unused member declaration
+# suggests removal of Unity methods like Start()
+dotnet_diagnostic.RCS1213.severity = none
+
+# SA1309: Field names should not begin with underscore
+# using them for _fields only used in their own property
+dotnet_diagnostic.SA1309.severity = none
+
+# SA1310: Field names should not contain underscore
+# using them in CONSTANT_NAMES
+dotnet_diagnostic.SA1310.severity = none
+
+# SA1401: Fields should be private
+# turning public fields into properties breaks Unity inspector
+dotnet_diagnostic.SA1401.severity = none
+
+
+# Spacing
+
+# SA1000: Keywords should be spaced correctly
+# suggests space in new()
+dotnet_diagnostic.SA1000.severity = none
+
+# SA1513: Closing brace should be followed by blank line
+dotnet_diagnostic.SA1513.severity = none
+
+# SA1515: Single-line comment should be preceded by blank line
+dotnet_diagnostic.SA1515.severity = none
+
+# SA1516: Elements should be separated by blank line
+dotnet_diagnostic.SA1516.severity = none
+
+
+# Too rigid
+
+# IDE0011: Add braces
+csharp_prefer_braces = when_multiline
+
+# IDE0055: Fix formatting
+dotnet_diagnostic.IDE0055.severity = none
+
+# IDE0058: Expression value is never used
+# warns about Instantiate and StartCoroutine without assignment
+dotnet_diagnostic.IDE0058.severity = none
+
+# RCS0044: Use carriage return + linefeed as new line
+dotnet_diagnostic.RCS0044.severity = none
+
+# RCS1081: Split variable declaration
+dotnet_diagnostic.RCS1081.severity = none
+
+# SA1107: Code should not contain multiple statements on one line
+dotnet_diagnostic.SA1107.severity = none
+
+# SA1132: Do not combine fields
+dotnet_diagnostic.SA1132.severity = none
+
+# SA1134: Attributes should not share line
+dotnet_diagnostic.SA1134.severity = none
+
+# SA1501: Statement should not be on a single line
+dotnet_diagnostic.SA1501.severity = none
+
+# SA1502: Element should not be on a single line
+dotnet_diagnostic.SA1502.severity = none
+
+# SA1503: Braces should not be omitted
+dotnet_diagnostic.SA1503.severity = none
+
+
